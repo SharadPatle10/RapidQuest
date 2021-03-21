@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="text" href="chart .html">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+</head>
+<body>
+    <ul style="background-color: white;">
+        <li><a href="#">
+            <img src="icon.png" alt="butterfly" style="padding-right: 10px;">
+        </a></li>
+        <li><a href="#Search">
+            <i class="material-icons" style="color: dimgray;">search</i>
+        </a></li>
+        <li style="margin-top: 1em;"><a href="#Home">
+            <i class="material-icons" style="color: rgb(28, 106, 224);">home</i>
+        </a></li>
+        <li><a href="#News">
+            <i class="material-icons" style="color: dimgray;">library_books</i>
+        </a></li>
+        <li><a href="#list">
+            <i class="material-icons" style="color: dimgray;">list_alt</i>
+        </a></li>
+        <li><a href="#Person">
+            <i class="material-icons" style="color: dimgray;">person_outline</i>
+        </a></li>
+        <li style="margin-top: 22em;"><a href="#Notifications">
+            <i class="material-icons" style="color: dimgray;">notifications</i>
+        </a></li>
+        <li><a href="#Logout">
+            <i class="material-icons" style="color: dimgray;">logout</i>
+        </a></li>
+    </ul>  
+    <div class="container">
+        <div class="row">        
+            <div class="col-sm" style="align-items: flex-start;">
+                <div style="display: flex; flex-wrap: wrap;margin-top: initial;">
+                    <img src="pp.jpg" alt="Profile Picture" style="width:60px;height:60px;border-radius: 30px;">
+                    <div style="margin-left: 1em;align-items: stretch;zoom:55%;">
+                        <p style="font-size: 2.5em;font-weight: bold; ">Hi Mike,</p>
+                        <p style="font-size: 1.5em;">Welcome back</p>
+                    </div>
+                </div><br>
+                <p class="one">Today</p><br>
+                <div style="zoom: 85%;">
+                    <p class="two">$19,892</p>
+                    <p>Account Balance</p>
+                    
+                    <p class="one">$4000</p>
+                    <p>Year-to-Date Contributions</p>
+                    
+                    <p class="one">$1,892</p>
+                    <p>Total Interest</p>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(28, 106, 224);">
+                    I want to
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <br><br>
+                <div style="zoom: 85%;">
+                    <p class="one">Recent Transactions</p>
+                    <br>
+                    <p>2020-08-07</p>
+                    <p class="one">Withdrawal Transfer to Bank-xxx11</p>
+                    <hr>
+                    <p>2020-07-21</p>
+                    <p class="one">Withdrawal Transfer to Bank-xxx11</p>
+                    <hr>
+                    <p>2020-07-16</p>
+                    <p class="one">Withdrawal Transfer to Bank-xxx11</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-sm">
+                <p>Retirement Income</p>
+                <p class="two">Starting Year 2056</p>
+                <div style="display: flex; flex-wrap: wrap;margin-top: initial;zoom: 60%;">
+                    <div style="flex: 2em;">
+                        <p class="two">$300,000</p>
+                        <p>My Goal</p>
+                        <hr>
+                    </div>
+                    <div style="flex: 2em;">
+                        <p class="two">59%</p>
+                        <p>Goal Achieved</p>
+                        <hr>
+                    </div><br>
+                    <div style="flex: 2em;">
+                        <p class="two">$300</p>
+                        <p>Est. Monthly Income</p>
+                        <hr>
+                    </div>
+                </div>
+                <p class="one">Contributions Overtime</p>
+
+                <figure class="highcharts-figure">
+                    <div id="container"></div>
+                </figure>
+                <script>
+                        Highcharts.chart('container', {
+                        chart: {
+                            type: 'column'
+                        },
+                        title: {
+                            text: ''
+                        },
+                        xAxis: {
+                            categories: ['20', '25', '30', '35', '40','60','65']
+                        },
+                        yAxis: {
+                            // min: 0,
+                            title: {
+                            text: ''
+                            },
+                            stackLabels: {
+                            enabled: false,
+                            style: {
+                                fontWeight: 'bold',
+                                color: ( // theme
+                                Highcharts.defaultOptions.title.style &&
+                                Highcharts.defaultOptions.title.style.color
+                                ) || 'gray'
+                            }
+                            },
+                        },
+                        yAxis:{
+                            categories: ['$0','$100', '$200', '$300', '$400', '$500']
+                        },
+                        legend: {
+                            align: 'right',
+                            x: -50,
+                            verticalAlign: 'top',
+                            y: -15,
+                            floating: true,
+                            backgroundColor:
+                            Highcharts.defaultOptions.legend.backgroundColor || 'white',
+                            borderColor: '#CCC',
+                            borderWidth: 1,
+                            shadow: true
+                        },
+                        tooltip: {
+                            headerFormat: '<b>{point.x}</b><br/>',
+                            pointFormat: '{series.name}: {point.y}<br/>Total: {point.stackTotal}'
+                        },
+                        plotOptions: {
+                            column: {
+                            stacking: 'normal',
+                            dataLabels: {
+                                enabled: false
+                            }
+                            }
+                        },
+                        series: [{
+                            name: 'Employer: K 73,500',
+                            data: [0.2 ,0.5, 0.4, 0.8,0.5,0.5,1]
+                        }, {
+                            name: 'Employee: K 52,500',
+                            data: [0.2 ,0.2, 0.5,0.2,0.5,1,1]
+                        }, {
+                            name: 'Total interest: K 244,313',
+                            data: [0.2 ,0.3, 0.6, 0.8,1,1,1]
+                        }]
+                        });
+                </script>
+
+                <p class="one">How do I compare to my peers?</p>
+                <p style="zoom: 90%;"> This numbers repersent current goal achievment</p>
+                <div class="row">
+                    <div class="col-sm">
+                        <div style="zoom: 50%;">                    
+                            <p class="one">Age : </p>                        
+                            <div class="form-group col-md-4">
+                                <select id="inputState" class="form-control" >
+                                <option selected>Under 30</option>
+                                <option>...</option>
+                                </select>
+                            </div>                             
+                            <p class="one">Salary :</p>                            
+                            <div class="form-group col-md-4">
+                                <select id="inputState" class="form-control" >
+                                <option selected>K20 - K30</option>
+                                <option>...</option>
+                                </select>
+                            </div>                
+                            <p class="one">Gender :</p>                                              
+                            <div class="form-group col-md-4">
+                                <select id="inputState" class="form-control" >
+                                <option selected>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                                </select>
+                            </div>                      
+                        </div>  
+                    </div>
+                    <div class="col-sm">         
+                        <div class="flex-wrapper">
+                            <div class="single-chart">
+                                <svg viewBox="0 0 36 36" class="circular-chart orange">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="78, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">78%</text>
+                                </svg>
+                            </div>
+                            
+                            <div class="single-chart">
+                                <svg viewBox="0 0 36 36" class="circular-chart green">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="95, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">95%</text>
+                                </svg>
+                            </div>
+                            
+                            <div class="single-chart">
+                                <svg viewBox="0 0 36 36" class="circular-chart blue">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <path class="circle"
+                                    stroke-dasharray="59, 100"
+                                    d="M18 2.0845
+                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                />
+                                <text x="18" y="20.35" class="percentage">59%</text>
+                                </svg>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+            </div>
+            <div class="col-sm">
+                <p class="three">Retirement Strategy</p>
+                <p class="one">Employee Contribution</p>
+                <div class="progress" >
+                    <input type="range" min="1" max="100" value="12">
+                    <p>12%</p>
+                </div><br>
+                <p class="one">Retirement Age</p>
+                <div class="progress">
+                    <input type="range" min="1" max="100" value="65">
+                    <p>65%</p>
+                </div> <br>
+                <div style="display: flex; flex-wrap: wrap;margin-top: initial;">
+                    <div style="flex: 2em;zoom: 80%;">
+                        <p>Employee Contribution</p>
+                        <p>Interest Rate</p>
+                    </div>
+                    <div style="flex: 2em;zoom: 80%;">
+                        <p>8.4%</p>
+                        <p>5%</p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary" id="btn">Update</button><br><br>
+                <a href="#" style="zoom: 90%; "> <u>View Help Docs ></u></a><br><br>
+                <div style="zoom: 90%;">
+                    <p>Are you considering a</p>
+                    <p class="one">Housing Advance?</p>
+                    <p>Limited time reduced Ineterest</p>
+                    <a href="#"style="zoom: 90%; "><u>Learn More > </u></a>
+                </div>
+            </div>                           
+        </div>
+    </div>    
+</body>
+</html>
